@@ -1,0 +1,7 @@
+Flask==2.2.2
+Markdown==3.4.1
+pandas==1.4.3
+pymongo==4.2.0
+pymysql==1.0.2
+python-dotenv==0.20.0
+SQLAlchemy==1.4.40
