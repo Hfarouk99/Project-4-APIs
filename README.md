@@ -10,8 +10,8 @@
 - /spotify (will give you the whole database)
 - /playlists (will give you a list of all the playlists)
 - /playlists/<"playlist"> (will get you everything in the playlist of your desire)
-- /playlists/<"playlist">/info(will give you a list of everything without the lyrics so a user can have a look at it)
--/playlists/<"playlist">/info/<"song">/score") gets you the sentiment score of the song you chose.
+- /playlists/<"playlist">/songs (will give you a list of everything without the lyrics so a user can have a look at it)
+-/playlists/<"song">/score") gets you the sentiment score of the song you chose.
 - /playlists/<"playlist">/avgscore will get you the avg score of the playlists
 
 ## To post:
@@ -19,7 +19,7 @@
 #
 #
 #
-![ alt text for screen readers](https://pbs.twimg.com/tweet_video_thumb/FEyb6P3WUAIFn_W.jpg)
+![ alt text for screen readers](https://media0.giphy.com/media/H03BVWlxUDZgTGgNrJ/giphy.gif)
 
 # Findings
 
@@ -34,10 +34,8 @@
 
 # This led to a lot of problems during my ETL
 
-![ alt text for screen readers](https://c.tenor.com/7l1DWtSkxdgAAAAM/losing-it-snapped.gif)
+![ alt text for screen readers](https://media2.giphy.com/media/fwibHszKrq1pak9KgG/200.gif)
 
-#
-#
 #
 
 ###  Not every playlist had a lot of mainstream music which made it harder to find songs. 4/5 playlists ended up having missing songs due to the api not being able to find then when first building my data base. 
